@@ -758,7 +758,7 @@ if (responses.hasOwnProperty(smallinput)) {
     A17.sendMessage(from, { react: { text: "❤" , key: m.key }})
     
     let { data } = await axios.get('https://api.github.com/repos/ahil15/Xlicon-v2');
-    teks = `*XLICON Script*\n\n*Total Stars*: ${data.stargazers_count}⭐\n*Total Forks*: ${data.forks_count} forks\n*GitHub*: https://github.com/ahil15/Xlicon-v2\n\nDont forget to follow me on *GitHub* and give a ⭐️ to my projects. `
+    teks = `*XLICON Script*\n\n*Total Stars*: ${data.stargazers_count}⭐\n*Total Forks*: ${data.forks_count} forks\n*GitHub*: https://github.com/Azkaazhrzlva/Xlicon-v2\n\nDont forget to follow me on *GitHub* and give a ⭐️ to my projects. `
   /*  let buttons = [
     {buttonId: `${prefix}owner`, buttonText: {displayText: '🍁 DEVELOPER 🍁'}, type: 1}
     ] */
@@ -770,14 +770,14 @@ if (responses.hasOwnProperty(smallinput)) {
     buttons: buttons,
     headerType: 4, */
     contextInfo:{externalAdreply:{
-    title:"Powered by Slasher",
+    title:"Powered by Azka",
     body: " ", 
     thumbnail: fs.readFileSync("Assets/pic2.jpg"),
     mediaType:1,
     //mediaUrl: 'https://wallpapercave.com/wp/wp10524580.jpg',
     //sourceUrl: "https://wallpapercave.com/wp/wp10524580.jpg"
-    mediaUrl: 'github.com/ahil15/Xlicon-v2',
-    sourceUrl: "github.com/ahil15/Xlicon-v2"
+    mediaUrl: 'github.com/Azkaazhrzlva/Xlicon-v2',
+    sourceUrl: "github.com/Azkaazhrzlva/Xlicon-v2"
     }}
 
     }
@@ -791,7 +791,7 @@ if (responses.hasOwnProperty(smallinput)) {
       if (isBanChat) return reply(mess.bangc);
 
       A17.sendMessage(from, { react: { text: "💫" , key: m.key }})
-    reply(`⚙ *My developer's group:* ⚙ https://chat.whatsapp.com/EjsQvJNcFGVCSfaBEIxZm2`)
+    reply(`⚙ *My developer's group:* ⚙ https://chat.whatsapp.com/HnE7DLOhI9U3G04GtLzZRZ`)
     }
     break;
     
@@ -801,7 +801,7 @@ case 'repo': case 'botrepo': {
   if (isBanChat) return reply(mess.bangc);
   
   A17.sendMessage(from, { react: { text: "💫" , key: m.key }})
-    reply(`⚙ My Source Code is </> - https://github.com/ahil15/Xlicon-v2`)
+    reply(`⚙ My Source Code is </> - https://github.com/Azkaazhrzlva/Xlicon-v2`)
     }
     break;
 
